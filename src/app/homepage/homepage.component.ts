@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EventsService } from '../events.service';
+
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -7,11 +7,11 @@ import { EventsService } from '../events.service';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor(private service:EventsService) { }
+  constructor() { }
   infoData:any;
 
   ngOnInit(): void {
-    this.infoData = this.service.infoDetails;
+    
   }
 
 }
