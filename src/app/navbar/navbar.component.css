@@ -1,0 +1,10 @@
+#nancy {
+    background-color:#5B2677 ;
+    padding: 15px;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #fff;
+}
